@@ -36,6 +36,6 @@ soupPara = soup.find_all(re.compile("p"))
 #print(soupPara)
 j = json.dumps(d)
 print(j)
-with open("data.json","w",encoding="utf-8") as f:
+with open("db.json","w",encoding="utf-8") as f:
     json.dump(j,f,ensure_ascii=False,indent=4)
 #print("Hello World")
